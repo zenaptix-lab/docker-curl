@@ -1,9 +1,8 @@
 # Curl Docker Image
+Originally a fork of [pstauffer/docker-curl](https://github.com/pstauffer/docker-curl)
 
 ## Description
-
-Small docker image with curl based on [Alpine Linux](https://hub.docker.com/_/alpine/).
-The curl version is new, so the option `--unix-socket` for Docker API requests is available.
+Small docker image with cURL and JQ based on [Alpine Linux](https://hub.docker.com/_/alpine/).
 
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/zenaptix-lab/docker-curl/Build/master)
 
@@ -15,4 +14,4 @@ docker run -it --rm --name curl ghcr.io/zenaptix-lab/curl https://ifconfig.co
 ```
 
 ## License
-This project is licensed under `MIT <http://opensource.org/licenses/MIT>`_.
+This project is licensed under `MIT <http://opensource.org/licenses/MIT>`.
